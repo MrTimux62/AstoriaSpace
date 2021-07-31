@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap ');
+* {
+    font-family: 'VT323', monospace;
+}
+body{
+    background-image: url('images/map/galaxy_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#vaisseau{
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+.planet{
+    position: absolute;
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+.landing{
+    position: absolute;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+#planet1{
+    width: 150px;
+    height: 150px;
+    left: 620px;
+    top: 250px;
+}
+#landingPlanet1{
+    left: 620px;
+    top: 250px;
+}
+#planet2, #landingPlanet2{
+    left: 1170px;
+    top: 140px;
+}
+#planet3, #landingPlanet3{
+    left: 150px;
+    top: 300px;
+}
+#planet4, #landingPlanet4{
+    left: 300px;
+    top: 400px;
+}
+#planet5, #landingPlanet5{
+    left: 800px;
+    top: 120px;
+}
+#planet6, #landingPlanet6{
+    left: 1150px;
+    top: 350px;
+}
+#planet7, #landingPlanet7{
+    left: 960px;
+    top: 230px;
+}
+#planet8{
+    width: 147px;
+    height: 80px;
+    left: 200px;
+    top: 90px;
+}
+#landingPlanet8{
+    left: 200px;
+    top: 90px;
+}
+#planet9, #landingPlanet9{
+    left: 470px;
+    top: 350px;
+}
+#planet10, #landingPlanet10{
+    left: 920px;
+    top: 470px;
+}
+#planet11, #landingPlanet11{
+    left: 470px;
+    top: 50px;
+}

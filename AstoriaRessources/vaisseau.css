@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap ');
+* {
+    font-family: 'VT323', monospace;
+    user-select: none;
+}
+
+.container-fluid {
+    position: absolute;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+#mon_vaisseau {
+    font-size: 250%;
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    top: 120px;
+    left: 300px;
+}
+
+.vaisseau2 {
+    position: absolute;
+    height: 800px;
+    width: 1000px;
+    top: 0px;
+    left: 100px;
+}
+
+#vaisseau_ennemi {
+    font-size: 250%;
+    border: 1px solid black;
+    position: absolute;
+    height: 700px;
+    width: 500px;
+    background-color: rgba(216, 204, 187, 0.575);
+    top: 150px;
+    right: 200px;
+    text-align: center;
+}
+
+.vaisseau {
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    top: 90px;
+    left: -20px;
+}
+
+.ennemi {
+    position: absolute;
+    height: 500px;
+    width: 450px;
+    top: 160px;
+    left: 20px;
+}
+
+.btn_attaquer {
+    position: absolute;
+    top: 630px;
+    left: 130px;
+}
+
+.btn_esquive {
+    position: absolute;
+    top: 630px;
+    left: 230px;
+}
+
+.btn_fuir {
+    position: absolute;
+    top: 630px;
+    left: 365px;
+}
+
+.vieennemi {
+    height: 40px;
+    width: 100%;
+}
+
+.progress {
+    display: flex;
+    height: 2rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    top: 10px;
+}
+
+.mb-3 button {
+    font-size: 40%;
+}
+
+.laser1 {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    top: 290px;
+    left: 580px;
+}
+
+.laser2 {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    top: 365px;
+    left: 580px;
+}
+
+.shieldeffect {
+    position: absolute;
+    width: 1400px;
+    height: 1000px;
+    top: -150px;
+    left: -400px;
+}
+
+.Meexplo1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 160px;
+    left: 108px;
+}
+
+.explo0,
+.Meexplo0 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 480px;
+    left: 130px;
+}
+
+.explo1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 300px;
+    left: 60px;
+}
+
+.explo2,
+.Meexplo2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 400px;
+    left: 300px;
+}
+
+.explo3,
+.Meexplo3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 250px;
+    left: 300px;
+}
+
+.megaexplo,
+.Memegaexplo {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 200px;
+    left: 50px;
+}
+
+.vbutton {
+    font-size: 50%;
+}
+
+#notif_V,
+#notif_E {
+    color: white;
+    font-size: 120%;
+}
+
+#notif_V {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+#notif_E {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.stats {
+    width: 150%;
+}
